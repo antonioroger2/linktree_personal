@@ -68,8 +68,10 @@ body {
 
 
 body {
-    background-color: #f8f9fa; /* Light gray background */
+
     font-family: Arial, sans-serif; /* Choose a readable font */
+    background-image: url("assets/img/PSG-College-of-Technology-PSGCT-Coimbatore-Campus-View-1.jpg");
+    background-size: cover;
 }
 .card {
     margin-bottom: 20px;

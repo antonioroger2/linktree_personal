@@ -51,10 +51,10 @@ document.addEventListener('DOMContentLoaded', () => {
             event.preventDefault();
             const password = prompt("Please re-enter your password to redirect to the link:");
             if (password === correctPassword) {
-                window.open(link.href, '_blank');  // Open link in a new tab/window
-                logout();  // Call logout after opening the link
+                window.open(link.href, '_blank');  
+                logout();  
             } else {
-                logout();  // Call logout if the password is incorrect
+                logout();  
             }
         });
     });
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('password').value = '';
         errorMessage.innerText = '';
 
-        // Clear message textarea in feedback form
+        
         feedbackForm.reset();
     }
 
